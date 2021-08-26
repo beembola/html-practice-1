@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 
-
-
 body {
     font-family: "Trirong", serif;
   }
@@ -19,8 +17,17 @@ body {
        font-size: 14px;
     }
   }
+
+  .flexbox-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+
+
      /* Media Query Desktop */
-    @media (max-width: 1350px) { 
+    @media (max-width: 1024px) { 
 
         body {
             background-color: #B0e298;
@@ -33,6 +40,7 @@ body {
              font-size: 26px;
           }
         }
+
 
 
 
