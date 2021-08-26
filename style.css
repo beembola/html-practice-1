@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+
+
+body {
+    font-family: "Trirong", serif;
+  }
+/* Media Query Desktop  */
+  @media screen and (min-width: 480px) { 
+    body {
+      background-color: #3d3b8e;
+      color: #FFF
+    }
+    h1,h2 {
+        font-size: 20px;
+     }
+    p{
+       font-size: 14px;
+    }
+  }
+     /* Media Query Desktop */
+    @media (max-width: 1350px) { 
+
+        body {
+            background-color: #B0e298;
+            color: #000
+          }
+          h1,h2 {
+              font-size: 50px;
+           }
+          p{
+             font-size: 26px;
+          }
+        }
+
+
+
+
